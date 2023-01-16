@@ -1,3 +1,50 @@
 /* Your Styles Here */
 body{
+    background-color: #F4A698;
+    justify-items: center;
+}
+
+.boxy {
+    margin: auto;
+    margin: 300px 250px;
+    box-shadow: 5px 5px #F18F7E;
+}
+
+.searchBar {
+    display: flex;
+    padding: 5px;
+    background-color: #DD614A;
+}
+
+img {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.infoCard {
+    padding: 15px;
+    background-color: #C5C392;
+}
+
+.image {
+    height: 30vh;
+    width: 30vh;
+    margin: auto;
+    display: flex;
+    box-shadow: 3px 3px #73A580;
+}
+
+img:hover {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    box-shadow: 3px 3px #CE4027;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
